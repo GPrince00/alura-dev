@@ -1,3 +1,15 @@
 body {
     background-color: #051D3B;
 }
+
+header {
+    display: flex;
+    margin: 32px;
+    height: 56px;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+      margin: 16px;
+  }
+}
