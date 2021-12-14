@@ -8,6 +8,12 @@ header {
     height: 56px;
 }
 
+input {
+    background-color: rgba(255, 255, 255, 0.16);
+    border: none;
+    border-radius: 8px;
+}
+
 @media screen and (max-width: 576px) {
   header {
       margin: 16px;
