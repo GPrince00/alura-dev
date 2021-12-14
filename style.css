@@ -1,6 +1,6 @@
 body {
     background-color: #051D3B;
-    max-width: 1180px;
+    max-width: 1440px;
     margin: 0 auto;
 	position: relative;
 }
@@ -11,10 +11,29 @@ header {
     height: 56px;
 }
 
+.logo-container {
+    height: 56px;
+    overflow: hidden;
+    width: 22%;
+}
+
+.logo {
+    width: 145px;
+}
+
+.search {
+    width: 56%;
+}
+
 input {
     background-color: rgba(255, 255, 255, 0.16);
     border: none;
-    border-radius: 8px;   
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    padding: 0 14px;
 }
 
 .user-container {
@@ -22,6 +41,8 @@ input {
     display: flex;
     align-items: center;
     color: white;
+    width: 22%;
+    justify-content: end;
 }
 
 .user {
